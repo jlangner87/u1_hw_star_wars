@@ -1,0 +1,179 @@
+  287  cd u1_hw_star_wars
+  288  code .
+  289  mkdir star_wars
+  290  ls
+  291  cd star_wars
+  292  mkdir empire rebellion
+  293  ls
+  294  git status
+  295  co ..
+  296  cd ..
+  297  git commit -m "creating StarWars Homework"
+  298  git status
+  299  cd u1_hw_star_wars
+  300  git statys
+  301  git status
+  302  cd empire
+  303  ls
+  304  cd star_wars
+  305  ls
+  306  cd empire
+  307  touch darth_vader.txt
+  308  echo "...heavy breathing..." >>darth_vader.txt
+  309  cat darth_vader.txt
+  310  cd ..
+  311  cd empire
+  312  ls
+  313  touch emperor_palpatine.txt
+  314  mkdir death_star
+  315  ls
+  316  mv darth_vader.txt death_star
+  317  ls
+  318  cd death_star
+  319  ls
+  320  cd..
+  321  cd ..
+  322  cd rebellion
+  323  ls
+  324  git status
+  325  git commit
+  326  git add
+  327  git commit
+  328  ls
+  329  git commit -m "Finished act1"
+  330  git status
+  331  pwd
+  332  touch princess_leia.txt && echo 'Help me, Obi-Wan...'
+  333  cat princess_leia.txt
+  334  ls
+  335  cat princess_leia.txt
+  336  rm princess.leia.txt
+  337  cd rebellion
+  338  rm princess_leia.txt
+  339  ls
+  340  touch princess.leia.txt && echo "Help me, Obi-Wan..." >> princess.leia.txt
+  341  cat princess_leia.txt
+  342  cat princess.leia.txt
+  343  mv princess.leia.txt/princess_leia.txt
+  344  ls
+  345  mv rebellion/princess.leia.txt rebellion/princess_leia.txt
+  346  ls
+  347  rm princess.leia.txt
+  348  ls
+  349  touch princess_leia.txt && echo "Help me, Obi-Wan..." >> princess_leia.txt
+  350  ls
+  351  cat princess_leia.txt
+  352  touch obi_wan.txt
+  353  ls
+  354  mkdir millennium_faclon
+  355  ls
+  356  touch millennium_faclon/han_solo
+  357  touch millennium_faclon/chewbaca.txt
+  358  ls
+  359  cd millenium_falcon
+  360  ls
+  361  pwd
+  362  cd millennium_faclon
+  363  ls
+  364  rm han_solo
+  365  ls
+  366  touch han_solo.txt
+  367  ls
+  368  cd ..
+  369  ls
+  370  touch like_skywalker.txt
+  371  ls
+  372  cd millennium_faclon
+  373  ls
+  374  cd ..
+  375  cd rebellion
+  376  ls
+  377  rm like_skywalker.txt
+  378  ls
+  379  touch luke.skywalker.txt
+  380  ls
+  381  pwd
+  382  mv luke_skywalker/rebellion luke_skywalker/rebellion/millennium_falcon
+  383  ls
+  384  mv/ luke.skywalker.txt /millennium_falcon
+  385  mv luke.skywalker.txt  millennium_faclon/ luke.skywalker.txt
+  386  mv /rebellion/luke.skywalker.txt rebellion millennium_faclon/luke.skywalker.txt
+  387  ls
+  388  mv rebellion/luke.skywalker.txt rebellion millennium_faclon
+  389  ls
+  390  pwd
+  391  mv /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/luke.skywalker.txt /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millennium_faclon
+  392  ls
+  393  /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/obi_wan.txt /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millennium_faclon
+  394  ls
+  395  /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/obi_wan.txt /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millennium_faclon
+  396  pwd
+  397  /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/obi_wan.txt /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millennium_faclon
+  398  mv /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/obi_wan.txt /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millennium_faclon
+  399  ls
+  400  mv /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/princess_leia.txt /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millennium_faclon
+  401  ls
+  402  cd ..
+  403  cd rebellion
+  404  pwd
+  405  cd ..
+  406  cd empire
+  407  cd death_star
+  408  pwd
+  409  mv /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millennium_falcon /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  410  mv /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/rebellion/millennium_faclon /Users/jlangner/ga_seir/unit1/homework/u1_hw_star_wars/star_wars/empire/death_star
+  411  ls
+  412  git.status
+  413  git status
+  414  git add .
+  415  git status
+  416  git commit -m "act2 completed"
+  417  ls
+  418  cd ..
+  419  ls
+  420  cd death_star
+  421  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  422  mv millennium_faclon/* death_star
+  423  cd ..
+  424  mv death_star/millennium_faclon/* death_star
+  425  ls
+  426  cd death_star
+  427  ls
+  428  rm obi_wan.txt
+  429  ls
+  430  cd
+  431  cd ga_seir
+  432  cd unit1
+  433  cd homework/u1_hw_star_wars
+  434  cd star_wars
+  435  mv empire/death_star/han_solo.txt empire/death_star/millennium_faclon
+  436  mv empire/death_star/chewbaca.txt empire/death_star/millennium_faclon
+  437  mv empire/death_star/princess_leia.txt empire/death_star/millennium_faclon
+  438  mv empire/death_star/luke.skywalker.txt empire/death_star/millennium_faclon
+  439  ls
+  440  cd ..
+  441  cd star_wars/empire/death_star/millennium_faclon
+  442  ls
+  443  cd ..
+  444  ls
+  445  cd ..
+  446  ls
+  447  cd ..
+  448  mv empire/death_star/millennium_faclon rebellion
+  449  ls
+  450  cd rebellion
+  451  ls
+  452  cd ..
+  453  mv empire/death_star/darth_vader.txt empire
+  454  ls
+  455  cd empire
+  456  ls
+  457  rm death_star
+  458  ls
+  459  rm-rf death_star
+  460  rm -rf death_star
+  461  ls
+  462  git add .
+  463  git commit -m "completed act 3"
+  464  cd ..
+  465  ls
